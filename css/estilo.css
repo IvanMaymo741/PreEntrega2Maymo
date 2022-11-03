@@ -2,9 +2,7 @@
 
 a {
     text-decoration: none;
-    text-transform: uppercase;
     color:black;
-    margin-left: 10px;
 }
 
 h1 {
@@ -32,6 +30,19 @@ main {
     background-color: #BFD8D2;
 }
 
+#h1{
+    text-align: left;
+    color: black;
+    font-style:italic;
+}
+
+div{
+    text-decoration: none;
+}
+.container {
+    display: flex; /* or inline-flex */
+  }
+
 .flex-container { 
     display: flex;
   }
@@ -51,10 +62,15 @@ main {
 
 /* IMAGENES */
 
-img {
+#img-index {
     width: 1000px;
     height: 300px;
-    margin-left: 280px;
+    margin-left: 170px;
+}
+#img-socio{
+    width: 1000px;
+    height: 300px;
+    margin-left: 170px;
 }
 
 /* FOOTER */
